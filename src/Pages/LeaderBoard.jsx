@@ -10,7 +10,7 @@ export default function LeaderboardPage() {
   useEffect(() => {
     const fetchLeaderboard = async () => {
       try {
-        const url = `${import.meta.env.VITE_BACKEND_URL}api/users/get`
+        const url = `${import.meta.env.VITE_BACKEND_URL}/api/users/get`
         const response = await axios.get(url);
         setLeaders(response.data.sort((a, b) => b.amountRaised - a.amountRaised));
       } catch (error) {

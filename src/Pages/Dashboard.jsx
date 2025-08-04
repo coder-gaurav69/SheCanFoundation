@@ -13,7 +13,7 @@ export default function DashboardPage() {
   useEffect(() => {
     const fetchDashboardData = async () => {
       try {
-        const url = `${import.meta.env.VITE_BACKEND_URL}api/users/get`
+        const url = `${import.meta.env.VITE_BACKEND_URL}/api/users/get`
 
         const response = await axios.get(url)
         console.log("Fetched data:", response.data);
