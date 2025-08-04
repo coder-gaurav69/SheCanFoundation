@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
-import logo from "../assets/logo.avif"
+
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center cursor-pointer" onClick={() => navigate('/')}>
-            <img src={logo} alt="FundRaise Logo" className="h-10 w-auto" />
+            <img src={"logo.avif"} alt="FundRaise Logo" className="h-10 w-auto" />
           </div>
 
           {/* Desktop Menu */}

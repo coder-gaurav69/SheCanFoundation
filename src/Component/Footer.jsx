@@ -1,5 +1,4 @@
-import React from "react";
-import logo from "../assets/logo.avif";
+import React from "react";;
 
 export default function Footer() {
   return (
@@ -11,7 +10,7 @@ export default function Footer() {
             {/* Logo */}
             <div className="flex flex-col gap-2">
               <div className="flex items-center">
-                <img src={logo} alt="FundRaise Logo" className="h-10 w-auto" />
+                <img src={'logo.avif'} alt="FundRaise Logo" className="h-10 w-auto" />
               </div>
               <span className="text-white text-lg font-bold">
                 SheCanFoundation
