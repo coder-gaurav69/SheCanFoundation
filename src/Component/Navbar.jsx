@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
-import logo from "../assets/logo.avif";
+import logo from "../assets/logo.avif"
 
 export default function Navbar() {
   const navigate = useNavigate();
