@@ -1,8 +1,0 @@
-{
-  "rewards": [
-    { "title": "Bronze Badge", "description": "Raised ₹1000", "unlocked": true },
-    { "title": "Silver Badge", "description": "Raised ₹5000", "unlocked": true },
-    { "title": "Gold Badge", "description": "Raised ₹10000", "unlocked": true },
-    { "title": "₹500 Voucher", "description": "Unlock at ₹15000", "unlocked": false }
-  ]
-}

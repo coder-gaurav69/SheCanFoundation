@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Navbar from "../Component/Navbar";
 import { useNavigate } from "react-router-dom";
-import Data from '../assets/data.json'
 import Footer from "../Component/Footer";
 
 export default function DashboardPage() {
