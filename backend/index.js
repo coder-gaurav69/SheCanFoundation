@@ -14,6 +14,10 @@ app.use(cors({
   methods: ['GET', 'POST'],
 }));
 
+app.get('/', (req, res) => {
+  res.send('This is the backend server for the assignment.');
+});
+
 app.use('/api/users', userRoutes);
 
 const PORT = process.env.PORT || 5000;
