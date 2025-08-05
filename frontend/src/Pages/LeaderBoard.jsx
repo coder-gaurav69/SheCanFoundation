@@ -13,6 +13,7 @@ export default function LeaderboardPage() {
         const url = `${import.meta.env.VITE_BACKEND_URL}/api/users/get`
         const response = await axios.get(url);
         setLeaders(response.data.sort((a, b) => b.amountRaised - a.amountRaised));
+        console.log("Fetched leaderboard data:", response.data);
       } catch (error) {
         console.error("Error fetching leaderboard", error);
       } finally {

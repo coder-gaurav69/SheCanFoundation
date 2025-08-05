@@ -1,3 +1,4 @@
+
 const User = require('../models/user');
 
 // Get all users
@@ -14,7 +15,7 @@ const getUsers = async (req, res) => {
 const createUser = async (req, res) => {
   try {
     const { username, referralCode, amountRaised, email, rewards } = req.body;
-
+    console.log("Creating user with data:", req.body);
     const user = new User({
       username,
       referralCode,

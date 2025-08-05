@@ -10,7 +10,7 @@ export default function Footer() {
             {/* Logo */}
             <div className="flex flex-col gap-2">
               <div className="flex items-center">
-                <img src={'logo.avif'} alt="FundRaise Logo" className="h-10 w-auto" />
+                <img src={'logo.avif'} alt="FundRaise Logo" className="h-10 w-auto rounded-full" />
               </div>
               <span className="text-white text-lg font-bold">
                 SheCanFoundation
