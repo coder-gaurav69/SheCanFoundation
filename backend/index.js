@@ -10,10 +10,10 @@ connectDB();
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: process.env.FRONTEND_URL,
   methods: ['GET', 'POST'],
-  credentials: true
 }));
+
 app.use('/api/users', userRoutes);
 
 const PORT = process.env.PORT || 5000;
